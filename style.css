@@ -1,0 +1,246 @@
+/* Box Model */
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+body {
+    background-color: #fff0e5;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff0e5;
+}
+
+img.logo {
+    width: 12em;
+    display: block;
+    cursor: pointer;
+}
+
+div.left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    text-rendering: none;
+}
+
+.navbar li {
+    display: inline;
+    list-style-type: none;
+    padding: 3em;
+}
+
+.navbar a:hover {
+    color: purple;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+div.right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+i {
+    font-size: 25px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+i:hover {
+    background-color: rgb(222, 220, 220);
+    border-radius: 8px;
+    color: purple;
+}
+
+button.login {
+    background-color: #fff0e5;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button.login:hover {
+    background-color: rgb(222, 220, 220);
+    border-radius: 5px;
+    color: purple;
+}
+
+button.sign {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+button.sign:hover {
+    background-color: rgb(0, 0, 87);
+}
+
+article {
+    margin-top: 70px;
+    text-align: center;
+    background-color: rgb(0, 0, 87);
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.heading {
+    font-size: 70px;
+    margin-top: 30px;
+}
+
+p.para1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input.assistant {
+    width: 800px;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+span.article-span:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+div.career-path {
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    cursor: pointer;
+}
+
+div.top {
+    background-color: rgb(0, 0, 87);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div.middle {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+p.position {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p.description {
+    margin-top: 10px;
+    font-size: 20px;
+    height: 50px;
+}
+
+div.bottom {
+    padding: 10px;
+    margin-top: 40px;
+}
+
+p.include {
+    color: rgb(63, 63, 63);
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+span.include {
+    color: black;
+    font-weight: bold;
+}
+
+p.certification {
+    color: rgb(63, 63, 63);
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+span.certification {
+    font-weight: bold;
+    color: black;
+}
+
+p.beginner {
+    color: rgb(63, 63, 63);
+    font-size: 20px;
+    width: 100%;
+}
+
+div.beginner-friendly {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span.beginner {
+    font-weight: bold;
+    color: black;
+}
+
+div.hours {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+p.hours {
+    font-weight: bold;
+    color: black;
+}
+
+span.hours {
+    color: rgb(63, 63, 63);
+}
+
+div.grid-container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin-left: 100px;
+}
